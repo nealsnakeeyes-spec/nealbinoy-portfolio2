@@ -1,10 +1,1 @@
-const reveals = document.querySelectorAll('.section, .job, .skill-panel, .hero-card');
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      observer.unobserve(entry.target);
-    }
-  });
-}, {threshold: 0.08});
-reveals.forEach((el) => { el.classList.add('reveal'); observer.observe(el); });
+const items=document.querySelectorAll('.section,.work-card,.journey-line article,.photo-frame');const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');io.unobserve(e.target)}}),{threshold:.08});items.forEach(x=>{x.classList.add('reveal');io.observe(x)});

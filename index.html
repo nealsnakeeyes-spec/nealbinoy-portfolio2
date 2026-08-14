@@ -1,184 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Neal Binoy — Business Operations, Project Management, Process Improvement and Stakeholder Management." />
-  <title>Neal Binoy | Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Neal Binoy — personal portfolio. Business, operations, project coordination, QA and customer experience.">
+<title>Neal Binoy — Personal Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="orb orb-one"></div>
-  <div class="orb orb-two"></div>
+<header class="nav">
+  <a class="brand" href="#home">Neal<span>.</span></a>
+  <nav><a href="#about">About</a><a href="#journey">Journey</a><a href="#work">Work</a><a href="#contact">Contact</a></nav>
+  <a class="social" href="https://www.linkedin.com/in/nealbinoy/" target="_blank" rel="noopener">LinkedIn ↗</a>
+</header>
 
-  <nav class="nav">
-    <a class="logo" href="#top">NB<span>.</span></a>
-    <div class="nav-links">
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#skills">Skills</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">HELLO, I'M NEAL</p>
+    <h1>I like figuring out <em>how things work.</em></h1>
+    <p class="lead">I'm a business graduate building my career across operations, business development, marketing, quality assurance and customer-facing teams.</p>
+    <div class="actions"><a class="btn dark" href="#work">Explore my work</a><a class="btn outline" href="https://www.linkedin.com/in/nealbinoy/" target="_blank" rel="noopener">Find me on LinkedIn ↗</a></div>
+    <p class="tiny">Currently: Associate Inside Sales Manager at Edureka · Bangalore</p>
+  </div>
+  <div class="hero-photo">
+    <div class="photo-frame"><img src="neal-profile.jpg" alt="Neal Binoy"></div>
+    <div class="photo-caption">business · people · technology</div>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <div class="label">01 — ABOUT</div>
+  <div class="content two">
+    <div><h2>A career built from <em>different perspectives.</em></h2></div>
+    <div class="body"><p>My path hasn't followed one straight line. I've worked in business development and marketing, moved into software quality assurance, and now work in EdTech where customer conversations, CRM, coordination and operations come together.</p><p>That mix is what I bring to a team: an understanding of customers, an eye for details, comfort working across teams, and a practical approach to getting things moving.</p></div>
+  </div>
+</section>
+
+<section id="journey" class="section journey">
+  <div class="label">02 — THE JOURNEY</div>
+  <div class="content">
+    <div class="journey-line">
+      <article><span>2024</span><h3>Business Development</h3><p>Anita Print Solutions</p><small>Clients · Projects · Delivery</small></article>
+      <article><span>2025</span><h3>Brand & Marketing</h3><p>Symega Food Ingredients</p><small>Research · Events · Operations</small></article>
+      <article><span>2025–26</span><h3>Quality & Technology</h3><p>Reloy</p><small>QA · Jira · Product teams</small></article>
+      <article class="current"><span>2026 →</span><h3>People & Operations</h3><p>Edureka</p><small>CRM · Consultations · Stakeholders</small></article>
     </div>
-    <a class="nav-cta" href="#contact">Let's talk ↗</a>
-  </nav>
+  </div>
+</section>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">BUSINESS OPERATIONS · PROJECT MANAGEMENT · PROCESS IMPROVEMENT</p>
-        <h1>Turning complex workflows into <span>clear, workable systems.</span></h1>
-        <p class="hero-text">
-          I'm Neal Binoy, a business graduate with experience across business operations,
-          project coordination, quality assurance, stakeholder management and customer-facing operations.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#experience">Explore my experience ↓</a>
-          <a class="button secondary" href="#contact">Get in touch</a>
-        </div>
-        <div class="quick-stats">
-          <div><strong>4+</strong><span>Professional roles</span></div>
-          <div><strong>7.8</strong><span>BBA CGPA</span></div>
-          <div><strong>1,000+</strong><span>Event participants coordinated</span></div>
-        </div>
-      </div>
-      <div class="hero-card">
-        <div class="card-top"><span>PROFILE</span><span>2026</span></div>
-        <div class="initials">NB</div>
-        <h2>Neal Binoy</h2>
-        <p>Operations · Coordination · Quality · Stakeholders</p>
-        <div class="availability"><i></i> Open to opportunities</div>
-      </div>
-    </section>
+<section id="work" class="section work">
+  <div class="label">03 — WHAT I'VE WORKED ON</div>
+  <div class="content work-grid">
+    <article class="work-card"><span class="num">01</span><h3>Customer & Operations</h3><p>Coordinating consultations, CRM records, documentation, follow-ups and communication between prospective learners and academic leadership.</p><div>Edureka</div></article>
+    <article class="work-card"><span class="num">02</span><h3>Quality & Product</h3><p>Functional, regression, UAT and end-to-end testing across Android and iOS, with defect tracking and release-readiness support.</p><div>Reloy</div></article>
+    <article class="work-card"><span class="num">03</span><h3>Brand & Events</h3><p>Participant data management for 1,000+ Aahar Food Fair attendees, marketing operations, competitor research and brand-asset audits.</p><div>Symega Food Ingredients</div></article>
+    <article class="work-card"><span class="num">04</span><h3>Clients & Projects</h3><p>Managing client requirements, order execution, project timelines and coordination between customers and internal teams.</p><div>Anita Print Solutions</div></article>
+  </div>
+</section>
 
-    <section id="about" class="section about">
-      <div class="section-label">01 / ABOUT</div>
-      <div class="section-content">
-        <h2>Business-minded. Process-focused. <em>People-aware.</em></h2>
-        <p>
-          Business graduate with experience across business operations, project coordination,
-          quality assurance, and stakeholder management in technology, education, and manufacturing.
-          Adept at managing workflows, documentation, cross-functional collaboration, and process
-          improvement using Excel, Jira, and CRM platforms.
-        </p>
-      </div>
-    </section>
+<section class="section capabilities">
+  <div class="label">04 — MY TOOLKIT</div>
+  <div class="content toolkit">
+    <div><h2>What I bring to the table.</h2><p>Tools help me execute. Communication and structured thinking help me make them useful.</p></div>
+    <div class="skills"><span>Business Operations</span><span>Project Coordination</span><span>Stakeholder Management</span><span>Process Improvement</span><span>CRM</span><span>Microsoft Excel</span><span>Jira</span><span>Quality Assurance</span><span>Reporting</span><span>Canva</span><span>Google Analytics</span><span>Documentation</span></div>
+  </div>
+</section>
 
-    <section id="experience" class="section">
-      <div class="section-label">02 / EXPERIENCE</div>
-      <div class="timeline">
-        <article class="job">
-          <div class="job-meta"><span>May 2026 — Present</span><span>Bangalore, India</span></div>
-          <div class="job-main">
-            <h3>Associate Inside Sales Manager</h3><h4>Edureka</h4>
-            <ul>
-              <li>Coordinated the end-to-end consultation process for Executive Doctorate programs.</li>
-              <li>Managed CRM records, pipeline tracking, customer documentation and follow-up schedules.</li>
-              <li>Coordinated consultation schedules between prospective learners and academic leadership while ensuring SLA compliance.</li>
-              <li>Executed structured follow-up workflows to improve customer engagement and operational efficiency.</li>
-              <li>Collaborated with cross-functional teams to support customer onboarding and operational processes.</li>
-            </ul>
-          </div>
-        </article>
+<section class="section education">
+  <div class="label">05 — EDUCATION</div>
+  <div class="content edu">
+    <div><p class="date">2021 — 2024</p><h2>Bachelor of Business Administration</h2><p>Kirloskar Institute of Advanced Management Studies</p><strong>CGPA 7.8</strong></div>
+    <div><p class="date">CERTIFICATIONS</p><ul><li>Brand Management — University of London (Coursera)</li><li>Business Analytics — MSME Technology Development Centre</li><li>PMI Project Management Certificate — LinkedIn Learning</li><li>Digital Marketing — KIAMS (A+ Grade)</li></ul></div>
+  </div>
+</section>
 
-        <article class="job">
-          <div class="job-meta"><span>Oct 2025 — Apr 2026</span><span>Bangalore, India</span></div>
-          <div class="job-main">
-            <h3>QA Tester Intern</h3><h4>Reloy</h4>
-            <ul>
-              <li>Executed functional, regression, UAT and end-to-end testing for Android and iOS applications.</li>
-              <li>Created and maintained detailed test documentation while tracking software defects using Jira.</li>
-              <li>Collaborated with developers and product teams to validate bug fixes and ensure release readiness.</li>
-              <li>Performed build verification and multi-device testing to maintain software quality.</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="job">
-          <div class="job-meta"><span>Mar 2025 — May 2025</span><span>Bangalore, India</span></div>
-          <div class="job-main">
-            <h3>Brand Management Intern</h3><h4>Symega Food Ingredients</h4>
-            <ul>
-              <li>Coordinated participant data management for over 1,000 attendees during the Aahar Food Fair.</li>
-              <li>Assisted with budgeting and operational planning for marketing initiatives valued at 50 lakh.</li>
-              <li>Conducted business research and competitor analysis to support strategic planning.</li>
-              <li>Collaborated with internal teams to audit branding assets and recommend process improvements.</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="job">
-          <div class="job-meta"><span>Feb 2024 — Feb 2025</span><span>Bangalore, India</span></div>
-          <div class="job-main">
-            <h3>Business Development & Marketing Associate</h3><h4>Anita Print Solutions</h4>
-            <ul>
-              <li>Coordinated client requirements, order execution and project timelines for printing and packaging solutions.</li>
-              <li>Managed communication between clients and internal teams to ensure timely project delivery.</li>
-              <li>Maintained customer records and resolved operational issues to improve service quality.</li>
-              <li>Coordinated multiple client projects while ensuring timely execution and stakeholder communication.</li>
-            </ul>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="skills" class="section skills-section">
-      <div class="section-label">03 / SKILLS</div>
-      <div class="skills-grid">
-        <div class="skill-panel">
-          <h3>Tools & Platforms</h3>
-          <div class="tags">
-            <span>Microsoft Excel</span><span>Jira</span><span>HubSpot CRM</span>
-            <span>Google Workspace</span><span>Google Analytics</span><span>Canva</span>
-          </div>
-        </div>
-        <div class="skill-panel">
-          <h3>Core Competencies</h3>
-          <div class="tags">
-            <span>Business Operations</span><span>Project Coordination</span><span>Process Improvement</span>
-            <span>Stakeholder Management</span><span>Documentation</span><span>Reporting</span>
-            <span>Cross-functional Collaboration</span><span>Workflow Management</span><span>Quality Assurance</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="education" class="section education">
-      <div class="section-label">04 / EDUCATION & CERTIFICATIONS</div>
-      <div class="education-grid">
-        <div>
-          <p class="mini-label">EDUCATION</p>
-          <h2>Bachelor of Business Administration</h2>
-          <p>Kirloskar Institute of Advanced Management Studies</p>
-          <strong>CGPA 7.8 · 2021 — 2024</strong>
-        </div>
-        <div>
-          <p class="mini-label">CERTIFICATIONS</p>
-          <ul class="certs">
-            <li>Brand Management: Aligning Business, Brand and Behaviour — University of London (Coursera)</li>
-            <li>Business Analytics Training — MSME Technology Development Centre</li>
-            <li>PMI Project Management Certificate — LinkedIn Learning</li>
-            <li>Digital Marketing — KIAMS (A+ Grade)</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <p class="eyebrow">05 / CONTACT</p>
-      <h2>Let's build something<br><span>that works better.</span></h2>
-      <p>For opportunities in operations, project management, business development or related roles.</p>
-      <div class="contact-actions">
-        <a class="button primary" href="mailto:nealbinoy22@gmail.com">nealbinoy22@gmail.com ↗</a>
-        <a class="button secondary" href="https://www.linkedin.com/in/nealbinoy" target="_blank" rel="noopener">LinkedIn ↗</a>
-      </div>
-    </section>
-  </main>
-
-  <footer><span>© 2026 Neal Binoy</span><span>Built with intention.</span></footer>
-  <script src="script.js"></script>
+<section id="contact" class="contact">
+  <p class="eyebrow">LET'S TALK</p>
+  <h2>Something interesting<br><em>starts with a conversation.</em></h2>
+  <p>Open to meaningful opportunities and conversations around business, operations, project coordination and customer-facing roles.</p>
+  <div class="actions"><a class="btn dark" href="mailto:nealbinoy22@gmail.com">nealbinoy22@gmail.com ↗</a><a class="btn outline" href="https://www.linkedin.com/in/nealbinoy/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+</section>
+</main>
+<footer><span>© 2026 Neal Binoy</span><span>Personal portfolio</span></footer>
+<script src="script.js"></script>
 </body>
 </html>
